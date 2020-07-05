@@ -1,6 +1,6 @@
 body
 {
-  background: linear-gradient(180deg, #283964 0%, #121B30 100%);
+  background: linear-gradient(180deg, #283964 30%, #90EE90 100%);
 
 }
 #header-1
@@ -44,19 +44,20 @@ h3 {
 }
 p
 {
-  text-align: justify;
+  text-align: center;
   color: #fff;
 }
-.institute-name h5, p
+.institute-name h5
 {
   text-align: center;
   margin-top: 15px;
   color: #fff;
 }
-.institute-name p
+.institute-name h5
 {
   text-align: center;
   margin-top: 15px;
+  color: #000000;
 }
 .details
 {
@@ -82,4 +83,57 @@ p
 .description
 {
   padding-top: 50px;
+}
+.layout-top-middle
+{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+.details-project
+{
+  padding-top: 20px;
+}
+.layout-top-middle h5
+{
+  color: #2F4F4F;
+  font-weight: bolder;
+  font-style: italic;
+}
+.intro
+{
+  margin-bottom: 30px;
+}
+.project-container
+{
+  margin-bottom: 30px;
+}
+.more-container
+{
+  margin-bottom: 20px;
+}
+.more-container p
+{
+  text-align: left;
+  padding-left: 20px;
+  color: #000000;
+}
+.education-container
+{
+  margin-bottom: 30px;
+}
+.education-container p
+{
+  color: #000000;
+}
+.footer-container
+{
+  margin-top: 40px;
+}
+.footer-container p
+{
+  color: #000000;
 }
